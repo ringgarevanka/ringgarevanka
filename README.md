@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 # 💫 About Me:
-🔭 I’m currently not working<br>👯 I’m looking to collaborate on ??? <br>🤝 I’m looking for help with ???<br>🌱 I’m currently learning I'm currently learning HTML5, CSS, and JavaScript programming languages<br>💬 Ask me about ???<br>⚡ Fun fact I come from Yogyakarta, Indonesia
+🔭 I’m currently not working<!--<br>👯 I’m looking to collaborate on ??? --><br>🤝 I’m looking for help with ???<br>🌱 I'm currently learning HTML5, CSS, and JavaScript programming languages<!--<br>💬 Ask me about ???--><br>⚡ Fun fact I come from Yogyakarta, Indonesia
 
 ---
 [![](https://visitcount.itsvg.in/api?id=ringgarevanka&icon=0&color=3)](https://visitcount.itsvg.in)
