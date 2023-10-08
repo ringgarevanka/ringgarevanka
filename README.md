@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 <!--🔭 I’m currently not working <br>👯 I’m looking to collaborate on ??? <br>🤝 I’m looking for help with ???--><br>🌱 I'm currently learning HTML5, CSS, and JavaScript <!--<br>💬 Ask me about ??? <br>⚡ Fun fact I come from Yogyakarta, Indonesia-->
 
 ---
-[![](https://ringgarevanka.gitnub.io/)
+[![]](https://ringgarevanka.gitnub.io/)
  
 ---
 [![](https://visitcount.itsvg.in/api?id=ringgarevanka&icon=0&color=3)](https://visitcount.itsvg.in)
