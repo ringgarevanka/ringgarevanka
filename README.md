@@ -15,9 +15,9 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
+
 # 💫 About Me:
-<!--🔭 I’m currently not working <br>👯 I’m looking to collaborate on ??? <br>🤝 I’m looking for help with ???--><br>🌱 I'm currently learning HTML5, CSS, and JavaScript <!--<br>💬 Ask me about ??? <br>⚡ Fun fact I come from Yogyakarta, Indonesia-->
+🔭 I’m currently not working <br>👯 I’m looking to collaborate on ??? <br>🤝 I’m looking for help with ??? <br>🌱 I'm currently learning HTML5, CSS, and JavaScript <br>💬 Ask me about ??? <br>⚡ Fun fact I come from Yogyakarta, Indonesia-->
 
 ---
 [Github Pages](https://ringgarevanka.github.io/)
