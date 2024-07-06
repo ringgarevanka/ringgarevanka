@@ -1,16 +1,13 @@
+``` Shell
 ## Hi there 👋
-``` Sh
-#!/github/ringgarevanka/sh
 about_me() {
-    echo "
-About Me:
+echo "About Me:
 Null
 "
 }
 
 tech_stack() {
-    echo "
-Tech Stack:
+echo "Tech Stack:
 Shell
 HTML5
 CSS3
@@ -23,6 +20,6 @@ Adobe Lightroom
 "
 }
 
-about_me && tech_stack
+about_me; tech_stack
 
 ```
