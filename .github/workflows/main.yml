@@ -1,1 +1,55 @@
+name: Main Workflow
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 17 * * *" # 00:00 WIB
+    - cron: "0 5 * * *"  # 12:00 WIB
+
+jobs:
+  generate-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick jq curl
+
+      - name: Generate Snake SVG
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/snake.svg?palette=tokyonight
+
+      - name: Move Snake to assets
+        run: |
+          mkdir -p assets
+          mv dist/snake.svg assets/snake.svg
+
+      # - name: Fetch 3 random anime girls directly to jpg
+        # run: |
+          # mkdir -p assets
+          # for i in 1 2 3; do
+            # curl -sL "$(curl -s https://api.waifu.pics/sfw/smile | jq -r .url)" \
+              # | convert - "assets/anime${i}.gif"
+          # done
+
+      - name: Set remote origin with token
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
+      - name: Commit & Push all assets
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/*
+          git commit -m "chore: update snake + anime assets [skip ci]" || echo "No changes to commit"
+          git pull --rebase origin main || echo "Nothing to pull"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
