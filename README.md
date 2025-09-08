@@ -76,6 +76,7 @@ const aboutMe = {
   <img src="./assets/snake.svg" alt="GitHub contribution snake animation" />
 
 </div>
+
 ---
 
 ## 🏆 Achievements
