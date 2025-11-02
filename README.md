@@ -2,9 +2,9 @@
 
 ---
 
-<p align="center">
+<!-- <p align="center">
   <img src="./assets/mahiru-shiina.gif" width="100%" alt="anime-banner" />
-</p>
+</p> -->
 
 <h1 align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=28&pause=1000&color=8A2BE2&center=true&vCenter=true&width=600&lines=Hey+there!+I%27m+Ringga+Revanka;Beginner+Developer+😅;Anime+Lover+🎌" alt="Typing SVG" />
