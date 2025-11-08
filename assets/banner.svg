@@ -1,0 +1,27 @@
+<div align="center">  
+  <svg xmlns="http://www.w3.org/2000/svg"  
+       viewBox="0 0 1000 300"  
+       width="100%"  
+       height="auto"  
+       style="max-width:1000px;">  
+    <!-- gradient background -->  
+    <defs>  
+      <linearGradient id="tokyonight-bg" x1="0" y1="0" x2="1" y2="1">  
+        <stop offset="0%" stop-color="#1a1b26"/>  
+        <stop offset="100%" stop-color="#2f3549"/>  
+      </linearGradient>  
+    </defs>  
+    <rect width="1000" height="300" fill="url(#tokyonight-bg)" rx="8" />  
+    <!-- text -->  
+    <text x="80" y="42%" text-anchor="start"  
+          font-family="Segoe UI, Roboto, Arial, sans-serif"  
+          font-size="48" font-weight="600" fill="#7aa2f7">  
+      Hi 👋, I'm  
+    </text>  
+    <text x="80" y="75%" text-anchor="start"  
+          font-family="Segoe UI, Roboto, Arial, sans-serif"  
+          font-size="82" font-weight="800" fill="#c0caf5">  
+      Ringga Revanka  
+    </text>  
+  </svg>  
+</div>
