@@ -15,9 +15,7 @@
         <stop offset="100%" stop-color="#2f3549"/>
       </linearGradient>
     </defs>
-
     <rect width="1000" height="300" fill="url(#tokyonight-bg)" rx="8" />
-
     <!-- text -->
     <text x="80" y="42%" text-anchor="start"
           font-family="Segoe UI, Roboto, Arial, sans-serif"
