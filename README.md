@@ -3,7 +3,7 @@
 ---
 
 <p align="center">
-  <img src="assets/banner.svg" width="1000" alt="Hi, I'm Ringga Revanka">
+  <img src="https://raw.githubusercontent.com/ringgarevanka/ringgarevanka/main/assets/banner.svg" alt="Hi, I'm Ringga Revanka" />
 </p>
 
 ---
