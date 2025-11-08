@@ -22,7 +22,11 @@ const aboutMe = {
     "Explore Open-Source Projects",
     "Sleep"
   ],
-  currentlyLearning: ["Node.js", "Python", "Shell"],
+  currentlyLearning: [
+    "Node.js",
+    "Python",
+    "Shell"
+  ],
   goals: [
     "Become a better Fullstack Developer",
     "Contribute more to Open-Source",
