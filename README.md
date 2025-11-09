@@ -23,12 +23,15 @@ const aboutMe = {
     "Sleep"
   ],
   currentlyLearning: [
+    "Shell",
+    "HTML + CSS",
+    "JavaScript",
     "Node.js",
-    "Python",
-    "Shell"
+    "Golang",
+    "Python"
   ],
   goals: [
-    "Become a better Fullstack Developer",
+    "Become a Fullstack Developer",
     "Contribute more to Open-Source",
     "Build useful & fun projects"
   ],
