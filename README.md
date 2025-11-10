@@ -47,7 +47,7 @@ const aboutMe = {
   <a href="https://youtube.com/@ringgarevanka">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/>
   </a>
-  <a href="mailto:ringgarevanka@gmail.com">
+  <a rel="nofollow, noindex" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#114;&#105;&#110;&#103;&#103;&#97;&#114;&#101;&#118;&#97;&#110;&#107;&#97;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
