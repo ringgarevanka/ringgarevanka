@@ -17,9 +17,9 @@ const aboutMe = {
   role: "Beginner Developer & Student",
   hobbies: [
     "Coding",
-    "Gaming",
-    "Reading Manga & Watching Anime",
     "Explore Open-Source Projects",
+    "Reading Manga & Watching Anime",
+    "Playing Game",
     "Sleep"
   ],
   currentlyLearning: [
@@ -35,7 +35,7 @@ const aboutMe = {
     "Contribute more to Open-Source",
     "Build useful & fun projects"
   ],
-  motto: "Code. Sleep. Anime. Repeat."
+  motto: "Coffee. Code. Sleep. Repeat."
 };
 ```
 
