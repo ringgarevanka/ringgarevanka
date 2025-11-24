@@ -1,7 +1,8 @@
+<!--
 <h1 align="center"> Rinn (@ringgarevanka) </h1>
 
 ---
-
+-->
 <p align="center">
   <img src="assets/banner.svg" width="1000" alt="Hi, I'm Ringga Revanka">
 </p>
