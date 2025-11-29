@@ -36,6 +36,9 @@ const aboutMe = {
     "Contribute more to Open-Source",
     "Build useful & fun projects"
   ],
+  devices: [
+    "Xiaomi 23122PCD1G (garnet)"
+  ],
   motto: "Coffee. Code. Sleep. Repeat."
 };
 ```
